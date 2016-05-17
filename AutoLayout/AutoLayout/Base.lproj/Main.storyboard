@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rh4-ZC-BOS">
+                                <rect key="frame" x="0.0" y="177" width="94" height="30"/>
+                                <color key="backgroundColor" red="0.76648485850000003" green="0.71439481559999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="btn1">
+                                    <color key="titleColor" red="0.026730202880000001" green="0.026730202880000001" blue="0.026730202880000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gHZ-FU-fY6">
+                                <rect key="frame" x="187.5" y="177" width="94" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.68208753619999996" blue="0.7857567298" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="btn3">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Die-OM-KBV">
+                                <rect key="frame" x="281.5" y="177" width="93.5" height="30"/>
+                                <color key="backgroundColor" red="0.7441159664" green="0.88891505900000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="btn4">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F16-jT-I7N">
+                                <rect key="frame" x="94" y="177" width="93.5" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.68104385779999999" blue="0.56235599589999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="btn2">
+                                    <color key="titleColor" red="0.026730202880000001" green="0.026730202880000001" blue="0.026730202880000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="Die-OM-KBV" secondAttribute="trailing" id="3mn-YA-XIT"/>
+                            <constraint firstItem="gHZ-FU-fY6" firstAttribute="height" secondItem="Rh4-ZC-BOS" secondAttribute="height" id="Dw4-Ar-22j"/>
+                            <constraint firstItem="F16-jT-I7N" firstAttribute="leading" secondItem="Rh4-ZC-BOS" secondAttribute="trailing" id="Nps-XY-HL7"/>
+                            <constraint firstItem="Die-OM-KBV" firstAttribute="width" secondItem="Rh4-ZC-BOS" secondAttribute="width" id="OUa-yK-ZhI"/>
+                            <constraint firstItem="Rh4-ZC-BOS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Sp2-0V-8uP"/>
+                            <constraint firstItem="Rh4-ZC-BOS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="157" id="Wum-iA-bzC"/>
+                            <constraint firstItem="Die-OM-KBV" firstAttribute="centerY" secondItem="Rh4-ZC-BOS" secondAttribute="centerY" id="YuN-ti-Pd1"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Rh4-ZC-BOS" secondAttribute="bottom" constant="460" id="btT-ZT-I4O"/>
+                            <constraint firstItem="F16-jT-I7N" firstAttribute="width" secondItem="Rh4-ZC-BOS" secondAttribute="width" id="dyj-gf-VAq"/>
+                            <constraint firstItem="F16-jT-I7N" firstAttribute="height" secondItem="Rh4-ZC-BOS" secondAttribute="height" id="eBN-Vz-g6N"/>
+                            <constraint firstItem="Die-OM-KBV" firstAttribute="height" secondItem="Rh4-ZC-BOS" secondAttribute="height" id="fDb-7D-g9P"/>
+                            <constraint firstItem="F16-jT-I7N" firstAttribute="centerY" secondItem="Rh4-ZC-BOS" secondAttribute="centerY" id="gez-5C-S1J"/>
+                            <constraint firstItem="gHZ-FU-fY6" firstAttribute="width" secondItem="Rh4-ZC-BOS" secondAttribute="width" id="ikI-uV-mz6"/>
+                            <constraint firstItem="gHZ-FU-fY6" firstAttribute="leading" secondItem="F16-jT-I7N" secondAttribute="trailing" id="vOv-Lf-kjl"/>
+                            <constraint firstItem="Die-OM-KBV" firstAttribute="leading" secondItem="gHZ-FU-fY6" secondAttribute="trailing" id="vuN-RX-40f"/>
+                            <constraint firstItem="gHZ-FU-fY6" firstAttribute="centerY" secondItem="Rh4-ZC-BOS" secondAttribute="centerY" id="zwp-Ft-0xN"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="64.5" y="312.5"/>
+        </scene>
+    </scenes>
+</document>
