@@ -1,1 +1,1 @@
-This  is   my first commit 
+等宽的视图自动布局
